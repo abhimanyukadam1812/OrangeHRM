@@ -1,0 +1,21 @@
+{
+  "name": "orangehrm-e2e",
+  "version": "1.0.0",
+  "description": "Playwright E2E framework for the OrangeHRM open-source demo (login suite).",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "playwright test",
+    "test:login": "playwright test tests/auth/login.spec.ts",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "install:browsers": "playwright install chromium",
+    "fetch:locators": "node scripts/fetch_locators.js",
+    "fetch:locators:check": "node scripts/fetch_locators.js --check"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0"
+  }
+}
