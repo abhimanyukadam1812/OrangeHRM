@@ -1,10 +1,10 @@
 import { test, expect } from '@playwright/test';
 
-test('Login with empty Password field', async { page } => {
+test('Login with empty password field', async { page } => {
   await page.goto('/');
-  // Scenario objective: Verify system displays mandatory field validation when password field is left empty
-  await page.locator('Open the URL https://opensource-demo.orangehrmlive.com/').fill('Open the URL https://opensource-demo.orangehrmlive.com/');
+  // Scenario objective: Validate mandatory field message when password is left empty
+  await page.locator('Open the application URL').fill('Open the application URL');
   await page.locator("Enter username as 'Admin'").fill("Enter username as 'Admin'");
-  await page.locator('Leave the password field empty').fill('Leave the password field empty');
+  await page.locator('Leave password field empty').fill('Leave password field empty');
   await expect(page).toContainText("Message 'Please enter the mandatory field/fields password' is displayed");
 });
