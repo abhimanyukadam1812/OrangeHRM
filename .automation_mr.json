@@ -1,24 +1,24 @@
 {
   "created": true,
-  "story_id": 2,
-  "title": "PERSONAL DETAILS verification\nPrecondition: Login with valid username and password which is as below\nusername: Admin\npas",
-  "branch_name": "automation/story-2-20260928180851",
+  "story_id": 3,
+  "title": "Precondition: User has logged in with Username:Admin Password:admin123 which is valid.\n\nverify Personal details section\n",
+  "branch_name": "automation/story-3-20260928182831",
   "repo_path": "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM",
   "files": [
-    "tests/verifyloginwithvalidadmincredentials.spec.ts",
-    "tests/verifyenabledanddisabledstateofpersonaldetailsguifields.spec.ts",
-    "tests/verifybehaviorofgenderandmaritalstatusdropdownfields.spec.ts",
-    "tests/verifyupdatingandsavingcontactdetailsinpersonaldetailsform.spec.ts",
-    "tests/verifyuploadingaprofilepictureinjpgformat.spec.ts",
-    "tests/verifyuploadingaprofilepictureinpngandgifformats.spec.ts",
-    "tests/verifyuploadingaprofilepicturewithsizelessthan1mb.spec.ts",
-    "tests/verifyuploadingaprofilepicturewithsizegreaterthan1mb.spec.ts"
+    "tests/verifyfieldenableddisabledstatesinpersonaldetailssection.spec.ts",
+    "tests/checkguielementspresentinthecontactdetailsform.spec.ts",
+    "tests/verifybehaviorofdropdownfieldsgendernationalityandmaritalstatus.spec.ts",
+    "tests/verifycontactdetailsareupdatedandsavedsuccessfully.spec.ts",
+    "tests/uploadprofilepictureinsupportedformatsjpgpnggif.spec.ts",
+    "tests/uploadprofilepicturewithsizelessthan1mb.spec.ts",
+    "tests/attempttouploadprofilepicturewithsizegreaterthan1mb.spec.ts",
+    "tests/verifyonlyonepicturecanbeuploadedatatime.spec.ts"
   ],
   "merge_request": {
-    "source_branch": "automation/story-2-20260928180851",
+    "source_branch": "automation/story-3-20260928182831",
     "target_branch": "main",
-    "title": "Automate: PERSONAL DETAILS verification\nPrecondition: Login with valid username and password which is as below\nusername: Admin\npas",
-    "description": "Generated playwright automation for story #2.\n\n- Story ID: 2\n- Title: PERSONAL DETAILS verification\nPrecondition: Login with valid username and password which is as below\nusername: Admin\npas\n- Files: tests/verifyloginwithvalidadmincredentials.spec.ts, tests/verifyenabledanddisabledstateofpersonaldetailsguifields.spec.ts, tests/verifybehaviorofgenderandmaritalstatusdropdownfields.spec.ts, tests/verifyupdatingandsavingcontactdetailsinpersonaldetailsform.spec.ts, tests/verifyuploadingaprofilepictureinjpgformat.spec.ts, tests/verifyuploadingaprofilepictureinpngandgifformats.spec.ts, tests/verifyuploadingaprofilepicturewithsizelessthan1mb.spec.ts, tests/verifyuploadingaprofilepicturewithsizegreaterthan1mb.spec.ts\n",
+    "title": "Automate: Precondition: User has logged in with Username:Admin Password:admin123 which is valid.\n\nverify Personal details section\n",
+    "description": "Generated playwright automation for story #3.\n\n- Story ID: 3\n- Title: Precondition: User has logged in with Username:Admin Password:admin123 which is valid.\n\nverify Personal details section\n\n- Files: tests/verifyfieldenableddisabledstatesinpersonaldetailssection.spec.ts, tests/checkguielementspresentinthecontactdetailsform.spec.ts, tests/verifybehaviorofdropdownfieldsgendernationalityandmaritalstatus.spec.ts, tests/verifycontactdetailsareupdatedandsavedsuccessfully.spec.ts, tests/uploadprofilepictureinsupportedformatsjpgpnggif.spec.ts, tests/uploadprofilepicturewithsizelessthan1mb.spec.ts, tests/attempttouploadprofilepicturewithsizegreaterthan1mb.spec.ts, tests/verifyonlyonepicturecanbeuploadedatatime.spec.ts\n",
     "status": "ready_for_review"
   }
 }
