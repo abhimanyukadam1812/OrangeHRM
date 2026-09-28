@@ -1,0 +1,24 @@
+{
+  "created": true,
+  "story_id": 2,
+  "title": "PERSONAL DETAILS verification\nPrecondition: Login with valid username and password which is as below\nusername: Admin\npas",
+  "branch_name": "automation/story-2-20260928180851",
+  "repo_path": "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM",
+  "files": [
+    "tests/verifyloginwithvalidadmincredentials.spec.ts",
+    "tests/verifyenabledanddisabledstateofpersonaldetailsguifields.spec.ts",
+    "tests/verifybehaviorofgenderandmaritalstatusdropdownfields.spec.ts",
+    "tests/verifyupdatingandsavingcontactdetailsinpersonaldetailsform.spec.ts",
+    "tests/verifyuploadingaprofilepictureinjpgformat.spec.ts",
+    "tests/verifyuploadingaprofilepictureinpngandgifformats.spec.ts",
+    "tests/verifyuploadingaprofilepicturewithsizelessthan1mb.spec.ts",
+    "tests/verifyuploadingaprofilepicturewithsizegreaterthan1mb.spec.ts"
+  ],
+  "merge_request": {
+    "source_branch": "automation/story-2-20260928180851",
+    "target_branch": "main",
+    "title": "Automate: PERSONAL DETAILS verification\nPrecondition: Login with valid username and password which is as below\nusername: Admin\npas",
+    "description": "Generated playwright automation for story #2.\n\n- Story ID: 2\n- Title: PERSONAL DETAILS verification\nPrecondition: Login with valid username and password which is as below\nusername: Admin\npas\n- Files: tests/verifyloginwithvalidadmincredentials.spec.ts, tests/verifyenabledanddisabledstateofpersonaldetailsguifields.spec.ts, tests/verifybehaviorofgenderandmaritalstatusdropdownfields.spec.ts, tests/verifyupdatingandsavingcontactdetailsinpersonaldetailsform.spec.ts, tests/verifyuploadingaprofilepictureinjpgformat.spec.ts, tests/verifyuploadingaprofilepictureinpngandgifformats.spec.ts, tests/verifyuploadingaprofilepicturewithsizelessthan1mb.spec.ts, tests/verifyuploadingaprofilepicturewithsizegreaterthan1mb.spec.ts\n",
+    "status": "ready_for_review"
+  }
+}
