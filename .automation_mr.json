@@ -1,24 +1,24 @@
 {
   "created": true,
-  "story_id": 4,
-  "title": "validate login functionality\nHRM Login\nData:  [valid username: Admin, valid password: admin123]\nCheck the login with val",
-  "branch_name": "automation/story-4-20260928184837",
+  "story_id": 5,
+  "title": "Data: [username: Admin, password: admin123]\nURL: https://opensource-demo.orangehrmlive.com/\n\nValidate HRM login function",
+  "branch_name": "automation/story-5-20260928190540",
   "repo_path": "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM",
   "files": [
-    "tests/successfulhrmloginwithvalidesscredentials.spec.ts",
-    "tests/rejectloginwithvalidessusernameandinvalidesspassword.spec.ts",
-    "tests/verifyloginwithvalidessusernameandvalidesspassword.spec.ts",
-    "tests/verifyloginwithinvalidessusernameandinvalidesspassworddisplayscredentialserror.spec.ts",
-    "tests/verifyloginwithinvalidessuserandinvalidpassworddisplayscredentialerror.spec.ts",
-    "tests/verifyloginwithinvalidessusernameandvalidesspassworddisplayserrormessage.spec.ts",
-    "tests/verifyloginwithinvalidessusernameandinvalidesspassworddisplayscredentialsnotvaliderror.spec.ts",
-    "tests/verifyloginwithinvalidessusernameandinvalidesspassworddisplayscredentialserror.spec.ts"
+    "tests/loginwithvalidusernameandvalidpassword.spec.ts",
+    "tests/loginwithvalidusernameandinvalidpassword.spec.ts",
+    "tests/loginwithinvalidusernameandvalidpassword.spec.ts",
+    "tests/loginwithinvalidusernameandinvalidpassword.spec.ts",
+    "tests/loginwithemptyusernamefield.spec.ts",
+    "tests/loginwithemptypasswordfield.spec.ts",
+    "tests/loginwithbothusernameandpasswordfieldsempty.spec.ts",
+    "tests/loginwithvalidusernameandcase-sensitiveincorrectpasswordcasing.spec.ts"
   ],
   "merge_request": {
-    "source_branch": "automation/story-4-20260928184837",
+    "source_branch": "automation/story-5-20260928190540",
     "target_branch": "main",
-    "title": "Automate: validate login functionality\nHRM Login\nData:  [valid username: Admin, valid password: admin123]\nCheck the login with val",
-    "description": "Generated playwright automation for story #4.\n\n- Story ID: 4\n- Title: validate login functionality\nHRM Login\nData:  [valid username: Admin, valid password: admin123]\nCheck the login with val\n- Files: tests/successfulhrmloginwithvalidesscredentials.spec.ts, tests/rejectloginwithvalidessusernameandinvalidesspassword.spec.ts, tests/verifyloginwithvalidessusernameandvalidesspassword.spec.ts, tests/verifyloginwithinvalidessusernameandinvalidesspassworddisplayscredentialserror.spec.ts, tests/verifyloginwithinvalidessuserandinvalidpassworddisplayscredentialerror.spec.ts, tests/verifyloginwithinvalidessusernameandvalidesspassworddisplayserrormessage.spec.ts, tests/verifyloginwithinvalidessusernameandinvalidesspassworddisplayscredentialsnotvaliderror.spec.ts, tests/verifyloginwithinvalidessusernameandinvalidesspassworddisplayscredentialserror.spec.ts\n",
+    "title": "Automate: Data: [username: Admin, password: admin123]\nURL: https://opensource-demo.orangehrmlive.com/\n\nValidate HRM login function",
+    "description": "Generated playwright automation for story #5.\n\n- Story ID: 5\n- Title: Data: [username: Admin, password: admin123]\nURL: https://opensource-demo.orangehrmlive.com/\n\nValidate HRM login function\n- Files: tests/loginwithvalidusernameandvalidpassword.spec.ts, tests/loginwithvalidusernameandinvalidpassword.spec.ts, tests/loginwithinvalidusernameandvalidpassword.spec.ts, tests/loginwithinvalidusernameandinvalidpassword.spec.ts, tests/loginwithemptyusernamefield.spec.ts, tests/loginwithemptypasswordfield.spec.ts, tests/loginwithbothusernameandpasswordfieldsempty.spec.ts, tests/loginwithvalidusernameandcase-sensitiveincorrectpasswordcasing.spec.ts\n",
     "status": "ready_for_review"
   }
 }
