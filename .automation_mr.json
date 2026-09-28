@@ -1,24 +1,24 @@
 {
   "created": true,
-  "story_id": 3,
-  "title": "Precondition: User has logged in with Username:Admin Password:admin123 which is valid.\n\nverify Personal details section\n",
-  "branch_name": "automation/story-3-20260928182831",
+  "story_id": 4,
+  "title": "validate login functionality\nHRM Login\nData:  [valid username: Admin, valid password: admin123]\nCheck the login with val",
+  "branch_name": "automation/story-4-20260928184837",
   "repo_path": "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM",
   "files": [
-    "tests/verifyfieldenableddisabledstatesinpersonaldetailssection.spec.ts",
-    "tests/checkguielementspresentinthecontactdetailsform.spec.ts",
-    "tests/verifybehaviorofdropdownfieldsgendernationalityandmaritalstatus.spec.ts",
-    "tests/verifycontactdetailsareupdatedandsavedsuccessfully.spec.ts",
-    "tests/uploadprofilepictureinsupportedformatsjpgpnggif.spec.ts",
-    "tests/uploadprofilepicturewithsizelessthan1mb.spec.ts",
-    "tests/attempttouploadprofilepicturewithsizegreaterthan1mb.spec.ts",
-    "tests/verifyonlyonepicturecanbeuploadedatatime.spec.ts"
+    "tests/successfulhrmloginwithvalidesscredentials.spec.ts",
+    "tests/rejectloginwithvalidessusernameandinvalidesspassword.spec.ts",
+    "tests/verifyloginwithvalidessusernameandvalidesspassword.spec.ts",
+    "tests/verifyloginwithinvalidessusernameandinvalidesspassworddisplayscredentialserror.spec.ts",
+    "tests/verifyloginwithinvalidessuserandinvalidpassworddisplayscredentialerror.spec.ts",
+    "tests/verifyloginwithinvalidessusernameandvalidesspassworddisplayserrormessage.spec.ts",
+    "tests/verifyloginwithinvalidessusernameandinvalidesspassworddisplayscredentialsnotvaliderror.spec.ts",
+    "tests/verifyloginwithinvalidessusernameandinvalidesspassworddisplayscredentialserror.spec.ts"
   ],
   "merge_request": {
-    "source_branch": "automation/story-3-20260928182831",
+    "source_branch": "automation/story-4-20260928184837",
     "target_branch": "main",
-    "title": "Automate: Precondition: User has logged in with Username:Admin Password:admin123 which is valid.\n\nverify Personal details section\n",
-    "description": "Generated playwright automation for story #3.\n\n- Story ID: 3\n- Title: Precondition: User has logged in with Username:Admin Password:admin123 which is valid.\n\nverify Personal details section\n\n- Files: tests/verifyfieldenableddisabledstatesinpersonaldetailssection.spec.ts, tests/checkguielementspresentinthecontactdetailsform.spec.ts, tests/verifybehaviorofdropdownfieldsgendernationalityandmaritalstatus.spec.ts, tests/verifycontactdetailsareupdatedandsavedsuccessfully.spec.ts, tests/uploadprofilepictureinsupportedformatsjpgpnggif.spec.ts, tests/uploadprofilepicturewithsizelessthan1mb.spec.ts, tests/attempttouploadprofilepicturewithsizegreaterthan1mb.spec.ts, tests/verifyonlyonepicturecanbeuploadedatatime.spec.ts\n",
+    "title": "Automate: validate login functionality\nHRM Login\nData:  [valid username: Admin, valid password: admin123]\nCheck the login with val",
+    "description": "Generated playwright automation for story #4.\n\n- Story ID: 4\n- Title: validate login functionality\nHRM Login\nData:  [valid username: Admin, valid password: admin123]\nCheck the login with val\n- Files: tests/successfulhrmloginwithvalidesscredentials.spec.ts, tests/rejectloginwithvalidessusernameandinvalidesspassword.spec.ts, tests/verifyloginwithvalidessusernameandvalidesspassword.spec.ts, tests/verifyloginwithinvalidessusernameandinvalidesspassworddisplayscredentialserror.spec.ts, tests/verifyloginwithinvalidessuserandinvalidpassworddisplayscredentialerror.spec.ts, tests/verifyloginwithinvalidessusernameandvalidesspassworddisplayserrormessage.spec.ts, tests/verifyloginwithinvalidessusernameandinvalidesspassworddisplayscredentialsnotvaliderror.spec.ts, tests/verifyloginwithinvalidessusernameandinvalidesspassworddisplayscredentialserror.spec.ts\n",
     "status": "ready_for_review"
   }
 }
