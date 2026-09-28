@@ -1,10 +1,10 @@
 import { test, expect } from '@playwright/test';
 
-test('Login with valid username and invalid password', async { page } => {
+test('Login with valid Username and invalid Password', async { page } => {
   await page.goto('/');
-  // Scenario objective: Validate that login fails when password is incorrect for a valid username
+  // Scenario objective: Verify system rejects login attempt when password is invalid but username is valid
   await page.locator('Open the URL https://opensource-demo.orangehrmlive.com/').fill('Open the URL https://opensource-demo.orangehrmlive.com/');
-  await page.locator("Enter username 'Admin' in the username field").fill("Enter username 'Admin' in the username field");
-  await page.locator("Enter password 'wrongPass123' in the password field").fill("Enter password 'wrongPass123' in the password field");
-  await expect(page).toContainText("Error message 'Incorrect Credentials, Please enter valid username and password' is displayed and user is not logged in");
+  await page.locator("Enter username as 'Admin'").fill("Enter username as 'Admin'");
+  await page.locator("Enter password as 'wrongPass123'").fill("Enter password as 'wrongPass123'");
+  await expect(page).toContainText("Error message 'Invalid credentials. Please enter valid username and password' is displayed");
 });

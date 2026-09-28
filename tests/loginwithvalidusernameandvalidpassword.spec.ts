@@ -1,10 +1,10 @@
 import { test, expect } from '@playwright/test';
 
-test('Login with valid username and valid password', async { page } => {
+test('Login with valid Username and valid Password', async { page } => {
   await page.goto('/');
-  // Scenario objective: Validate that a user can successfully log in to HRM with correct credentials
+  // Scenario objective: Verify user can successfully log in to OrangeHRM with correct credentials
   await page.locator('Open the URL https://opensource-demo.orangehrmlive.com/').fill('Open the URL https://opensource-demo.orangehrmlive.com/');
-  await page.locator("Enter username 'Admin' in the username field").fill("Enter username 'Admin' in the username field");
-  await page.locator("Enter password 'admin123' in the password field").fill("Enter password 'admin123' in the password field");
-  await expect(page).toContainText("User is redirected to the 'Personal Details' page confirming successful login");
+  await page.locator("Enter username as 'Admin'").fill("Enter username as 'Admin'");
+  await page.locator("Enter password as 'admin123'").fill("Enter password as 'admin123'");
+  await expect(page).toContainText("User is redirected to the 'Personal Details' page (Dashboard) successfully");
 });
