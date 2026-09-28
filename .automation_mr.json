@@ -1,8 +1,8 @@
 {
   "created": true,
-  "story_id": 6,
+  "story_id": 7,
   "title": "Validate HRM Login\nData: username: Admin , password: admin123\nurl: https://opensource-demo.orangehrmlive.com/\n\nCheck the",
-  "branch_name": "automation/story-6-20260928191925",
+  "branch_name": "automation/story-7-20260928193053",
   "repo_path": "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM",
   "files": [
     "tests/loginwithvalidusernameandvalidpassword.spec.ts",
@@ -12,13 +12,13 @@
     "tests/loginwithemptyusernamefield.spec.ts",
     "tests/loginwithemptypasswordfield.spec.ts",
     "tests/loginwithbothusernameandpasswordfieldsempty.spec.ts",
-    "tests/loginwithvalidcredentialscontainingleadingtrailingspaces.spec.ts"
+    "tests/loginwithvalidusernameandpasswordcontainingleadingtrailingspaces.spec.ts"
   ],
   "merge_request": {
-    "source_branch": "automation/story-6-20260928191925",
+    "source_branch": "automation/story-7-20260928193053",
     "target_branch": "main",
     "title": "Automate: Validate HRM Login\nData: username: Admin , password: admin123\nurl: https://opensource-demo.orangehrmlive.com/\n\nCheck the",
-    "description": "Generated playwright automation for story #6.\n\n- Story ID: 6\n- Title: Validate HRM Login\nData: username: Admin , password: admin123\nurl: https://opensource-demo.orangehrmlive.com/\n\nCheck the\n- Files: tests/loginwithvalidusernameandvalidpassword.spec.ts, tests/loginwithinvalidusernameandvalidpassword.spec.ts, tests/loginwithvalidusernameandinvalidpassword.spec.ts, tests/loginwithinvalidusernameandinvalidpassword.spec.ts, tests/loginwithemptyusernamefield.spec.ts, tests/loginwithemptypasswordfield.spec.ts, tests/loginwithbothusernameandpasswordfieldsempty.spec.ts, tests/loginwithvalidcredentialscontainingleadingtrailingspaces.spec.ts\n",
+    "description": "Generated playwright automation for story #7.\n\n- Story ID: 7\n- Title: Validate HRM Login\nData: username: Admin , password: admin123\nurl: https://opensource-demo.orangehrmlive.com/\n\nCheck the\n- Files: tests/loginwithvalidusernameandvalidpassword.spec.ts, tests/loginwithinvalidusernameandvalidpassword.spec.ts, tests/loginwithvalidusernameandinvalidpassword.spec.ts, tests/loginwithinvalidusernameandinvalidpassword.spec.ts, tests/loginwithemptyusernamefield.spec.ts, tests/loginwithemptypasswordfield.spec.ts, tests/loginwithbothusernameandpasswordfieldsempty.spec.ts, tests/loginwithvalidusernameandpasswordcontainingleadingtrailingspaces.spec.ts\n",
     "status": "ready_for_review"
   }
 }
