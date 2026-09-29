@@ -1,0 +1,3 @@
+- page: verify user role and status values are restricted to defined set
+- heading: Login
+- button: Submit

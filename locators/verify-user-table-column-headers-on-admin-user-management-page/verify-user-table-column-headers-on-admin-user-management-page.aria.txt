@@ -1,0 +1,3 @@
+- page: verify user table column headers on admin user management page
+- heading: Login
+- button: Submit

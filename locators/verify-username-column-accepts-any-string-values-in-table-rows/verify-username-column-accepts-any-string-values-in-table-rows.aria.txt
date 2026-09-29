@@ -1,0 +1,3 @@
+- page: verify username column accepts any string values in table rows
+- heading: Login
+- button: Submit

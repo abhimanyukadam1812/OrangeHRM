@@ -1,0 +1,3 @@
+- page: navigation to admin user management page via sidepanel
+- heading: Login
+- button: Submit
