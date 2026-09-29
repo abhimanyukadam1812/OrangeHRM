@@ -1,5 +1,8 @@
 import { defineConfig, devices } from '@playwright/test';
 
+export const DEFAULT_ADMIN_USERNAME = process.env.ORANGEHRM_USERNAME || 'Admin';
+export const DEFAULT_ADMIN_PASSWORD = process.env.ORANGEHRM_PASSWORD || 'admin123';
+
 /**
  * OrangeHRM E2E framework config.
  *
