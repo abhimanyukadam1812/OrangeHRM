@@ -1,0 +1,49 @@
+{
+  "created": true,
+  "story_id": 15,
+  "title": "As an Admin\n I want to open the System Users page\n So that I can view the users configured in the system.",
+  "branch_name": "automation/story-15-20260929150719",
+  "repo_path": "C:\\Hackathon\\OrangeHRM",
+  "files": [
+    "pages/dashboard/dashboard.page.ts",
+    "locators/dashboard/dashboard.locator.ts",
+    "locators/dashboard/dashboard.aria.txt",
+    "tests/admin-logs-in-and-lands-on-dashboard.spec.ts",
+    "pages/user-list-is-visible-on-system-users-page/user-list-is-visible-on-system-users-page.page.ts",
+    "locators/user-list-is-visible-on-system-users-page/user-list-is-visible-on-system-users-page.locator.ts",
+    "locators/user-list-is-visible-on-system-users-page/user-list-is-visible-on-system-users-page.aria.txt",
+    "tests/user-list-is-visible-on-system-users-page.spec.ts",
+    "tests/direct-url-access-to-system-users-page-without-login.spec.ts",
+    "pages/refreshing-system-users-page-retains-user-list/refreshing-system-users-page-retains-user-list.page.ts",
+    "locators/refreshing-system-users-page-retains-user-list/refreshing-system-users-page-retains-user-list.locator.ts",
+    "locators/refreshing-system-users-page-retains-user-list/refreshing-system-users-page-retains-user-list.aria.txt",
+    "tests/refreshing-system-users-page-retains-user-list.spec.ts"
+  ],
+  "validation": {
+    "passed": false,
+    "status": "failed",
+    "report_html": "C:\\Hackathon\\OrangeHRM\\playwright-report\\index.html",
+    "spec_files": [
+      "C:\\Hackathon\\OrangeHRM\\tests\\admin-logs-in-and-lands-on-dashboard.spec.ts",
+      "C:\\Hackathon\\OrangeHRM\\tests\\auth\\login.spec.ts",
+      "C:\\Hackathon\\OrangeHRM\\tests\\direct-url-access-to-system-users-page-without-login.spec.ts",
+      "C:\\Hackathon\\OrangeHRM\\tests\\refreshing-system-users-page-retains-user-list.spec.ts",
+      "C:\\Hackathon\\OrangeHRM\\tests\\user-list-is-visible-on-system-users-page.spec.ts",
+      "C:\\Hackathon\\OrangeHRM\\tests\\admin-logs-in-and-lands-on-dashboard.spec.ts",
+      "C:\\Hackathon\\OrangeHRM\\tests\\direct-url-access-to-system-users-page-without-login.spec.ts",
+      "C:\\Hackathon\\OrangeHRM\\tests\\refreshing-system-users-page-retains-user-list.spec.ts",
+      "C:\\Hackathon\\OrangeHRM\\tests\\user-list-is-visible-on-system-users-page.spec.ts"
+    ],
+    "stdout": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments.\n\n\nTo open last HTML report run:\n\u001b[36m\u001b[39m\n\u001b[36m  npx playwright show-report\u001b[39m\n\u001b[36m\u001b[39m\n",
+    "stderr": ""
+  },
+  "report_html": "C:\\Hackathon\\OrangeHRM\\playwright-report\\index.html",
+  "report_url": "file:///C:/Hackathon/OrangeHRM/playwright-report/index.html",
+  "merge_request": {
+    "source_branch": "automation/story-15-20260929150719",
+    "target_branch": "main",
+    "title": "Automate: As an Admin\n I want to open the System Users page\n So that I can view the users configured in the system.",
+    "description": "Generated playwright automation for story #15.\n\n- Story ID: 15\n- Title: As an Admin\n I want to open the System Users page\n So that I can view the users configured in the system.\n- Files: pages/dashboard/dashboard.page.ts, locators/dashboard/dashboard.locator.ts, locators/dashboard/dashboard.aria.txt, tests/admin-logs-in-and-lands-on-dashboard.spec.ts, pages/user-list-is-visible-on-system-users-page/user-list-is-visible-on-system-users-page.page.ts, locators/user-list-is-visible-on-system-users-page/user-list-is-visible-on-system-users-page.locator.ts, locators/user-list-is-visible-on-system-users-page/user-list-is-visible-on-system-users-page.aria.txt, tests/user-list-is-visible-on-system-users-page.spec.ts, tests/direct-url-access-to-system-users-page-without-login.spec.ts, pages/refreshing-system-users-page-retains-user-list/refreshing-system-users-page-retains-user-list.page.ts, locators/refreshing-system-users-page-retains-user-list/refreshing-system-users-page-retains-user-list.locator.ts, locators/refreshing-system-users-page-retains-user-list/refreshing-system-users-page-retains-user-list.aria.txt, tests/refreshing-system-users-page-retains-user-list.spec.ts\n- Report: C:\\Hackathon\\OrangeHRM\\playwright-report\\index.html\n",
+    "status": "ready_for_review"
+  }
+}
