@@ -1,0 +1,3 @@
+- page: verify user table column headers
+- heading: Login
+- button: Submit
