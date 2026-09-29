@@ -1,0 +1,3 @@
+- page: verify status column displays only enabled or disabled values
+- heading: Login
+- button: Submit

@@ -1,0 +1,3 @@
+- page: verify total records count displayed above table
+- heading: Login
+- button: Submit
