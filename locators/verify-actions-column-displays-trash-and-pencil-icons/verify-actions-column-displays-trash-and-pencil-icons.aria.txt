@@ -1,0 +1,3 @@
+- page: verify actions column displays trash and pencil icons
+- heading: Login
+- button: Submit
