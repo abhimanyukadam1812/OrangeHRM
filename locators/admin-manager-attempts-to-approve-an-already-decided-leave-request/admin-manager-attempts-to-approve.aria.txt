@@ -1,0 +1,3 @@
+- page: admin manager attempts to approve
+- heading: Login
+- button: Submit
