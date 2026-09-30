@@ -1,9 +1,9 @@
-import { test, expect } from '@playwright/test';
+﻿import { test, expect } from '@playwright/test';
 import { testConfig } from './testConfig';
-import { Resolver } from '../node_modules/@types/node/dns.d';
+import { LoginPage } from '../pages/login.page';
 
 test('Verify Status column displays only Enabled or Disabled', async ({ page }) => {
-  const verifyStatusColumnDisplaysOnlyEnabledOrDisabledPage = new Resolver(page);
+  const verifyStatusColumnDisplaysOnlyEnabledOrDisabledPage = new LoginPage(page);
   await page.goto((testConfig.baseUrl || '/') + testConfig.loginPath);
   await page.getByPlaceholder(/username/i).fill(testConfig.username);
   await page.getByPlaceholder(/password/i).fill(testConfig.password);
@@ -14,3 +14,4 @@ test('Verify Status column displays only Enabled or Disabled', async ({ page }) 
   await expect(page.locator('body')).toBeVisible();
   await page.screenshot({ path: 'test-results/verification-verification.png', fullPage: true });
 });
+

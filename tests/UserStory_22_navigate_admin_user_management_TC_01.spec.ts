@@ -1,9 +1,9 @@
-import { test, expect } from '@playwright/test';
+﻿import { test, expect } from '@playwright/test';
 import { testConfig } from './testConfig';
-import { Resolver } from '../node_modules/@types/node/dns.d';
+import { LoginPage } from '../pages/login.page';
 
 test('Navigate to Admin/User Management page via sidepanel', async ({ page }) => {
-  const navigateToAdminUserManagementPageViaSidepanelPage = new Resolver(page);
+  const navigateToAdminUserManagementPageViaSidepanelPage = new LoginPage(page);
   await page.goto((testConfig.baseUrl || '/') + testConfig.loginPath);
   await page.getByPlaceholder(/username/i).fill(testConfig.username);
   await page.getByPlaceholder(/password/i).fill(testConfig.password);
@@ -15,3 +15,4 @@ test('Navigate to Admin/User Management page via sidepanel', async ({ page }) =>
   await expect(page.locator('body')).toBeVisible();
   await page.screenshot({ path: 'test-results/verification-verification.png', fullPage: true });
 });
+
