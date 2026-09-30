@@ -1,18 +1,20 @@
 {
   "created": true,
-  "story_id": 9,
-  "title": "Validate HRM Login\nData: username: Admin , password: admin123\nURL: https://opensource-demo.orangehrmlive.com/\n\nCheck the",
-  "branch_name": "automation/story-9-20260929115203",
+  "story_id": 23,
+  "title": "Precondition: Logged in as an Admin user in OrangeHRM applciation\nVerify the users list on the \"Admin/User Management\" p",
+  "branch_name": "automation/story-23-20260930131750",
   "repo_path": "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM",
   "files": [
-    "tests/login-with-valid-username-and-valid-password.spec.ts",
-    "tests/login-with-invalid-username-and-valid-password.spec.ts",
-    "tests/login-with-valid-username-and-invalid-password.spec.ts",
-    "tests/login-with-invalid-username-and-invalid-password.spec.ts",
-    "tests/login-with-empty-username-field.spec.ts",
-    "tests/login-with-empty-password-field.spec.ts",
-    "tests/login-with-both-username-and-password-fields-empty.spec.ts",
-    "tests/login-with-valid-username-having-leading-trailing-spaces.spec.ts"
+    "locators/home/home.locator.ts",
+    "locators/home/home.aria.txt",
+    "tests/UserStory_23_navigate_admin_user_management_TC_01.spec.ts",
+    "tests/UserStory_23_verify_users_table_displays_TC_02.spec.ts",
+    "tests/UserStory_23_verify_users_table_displays_TC_03.spec.ts",
+    "tests/UserStory_23_verify_total_records_count_TC_04.spec.ts",
+    "tests/UserStory_23_verify_user_row_displays_TC_05.spec.ts",
+    "tests/UserStory_23_verify_actions_column_displays_TC_06.spec.ts",
+    "tests/UserStory_23_verify_admin_user_management_TC_07.spec.ts",
+    "tests/UserStory_23_verify_status_column_displays_TC_08.spec.ts"
   ],
   "validation": {
     "passed": false,
@@ -28,6 +30,14 @@
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\login-with-valid-username-and-invalid-password.spec.ts",
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\login-with-valid-username-and-valid-password.spec.ts",
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\login-with-valid-username-having-leading-trailing-spaces.spec.ts",
+      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_23_navigate_admin_user_management_TC_01.spec.ts",
+      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_23_verify_actions_column_displays_TC_06.spec.ts",
+      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_23_verify_admin_user_management_TC_07.spec.ts",
+      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_23_verify_status_column_displays_TC_08.spec.ts",
+      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_23_verify_total_records_count_TC_04.spec.ts",
+      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_23_verify_user_row_displays_TC_05.spec.ts",
+      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_23_verify_users_table_displays_TC_02.spec.ts",
+      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_23_verify_users_table_displays_TC_03.spec.ts",
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\login-with-both-username-and-password-fields-empty.spec.ts",
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\login-with-empty-password-field.spec.ts",
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\login-with-empty-username-field.spec.ts",
@@ -35,7 +45,15 @@
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\login-with-invalid-username-and-valid-password.spec.ts",
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\login-with-valid-username-and-invalid-password.spec.ts",
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\login-with-valid-username-and-valid-password.spec.ts",
-      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\login-with-valid-username-having-leading-trailing-spaces.spec.ts"
+      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\login-with-valid-username-having-leading-trailing-spaces.spec.ts",
+      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_23_navigate_admin_user_management_TC_01.spec.ts",
+      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_23_verify_actions_column_displays_TC_06.spec.ts",
+      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_23_verify_admin_user_management_TC_07.spec.ts",
+      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_23_verify_status_column_displays_TC_08.spec.ts",
+      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_23_verify_total_records_count_TC_04.spec.ts",
+      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_23_verify_user_row_displays_TC_05.spec.ts",
+      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_23_verify_users_table_displays_TC_02.spec.ts",
+      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_23_verify_users_table_displays_TC_03.spec.ts"
     ],
     "stdout": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments.\n\n\nTo open last HTML report run:\n\u001b[36m\u001b[39m\n\u001b[36m  npx playwright show-report\u001b[39m\n\u001b[36m\u001b[39m\n",
     "stderr": ""
@@ -43,10 +61,10 @@
   "report_html": "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\artifacts\\playwright-report\\index.html",
   "report_url": "file:///C:/AIHackathon/OrangeHRMTest/OrangeHRMRepo/OrangeHRM/artifacts/playwright-report/index.html",
   "merge_request": {
-    "source_branch": "automation/story-9-20260929115203",
+    "source_branch": "automation/story-23-20260930131750",
     "target_branch": "main",
-    "title": "Automate: Validate HRM Login\nData: username: Admin , password: admin123\nURL: https://opensource-demo.orangehrmlive.com/\n\nCheck the",
-    "description": "Generated playwright automation for story #9.\n\n- Story ID: 9\n- Title: Validate HRM Login\nData: username: Admin , password: admin123\nURL: https://opensource-demo.orangehrmlive.com/\n\nCheck the\n- Files: tests/login-with-valid-username-and-valid-password.spec.ts, tests/login-with-invalid-username-and-valid-password.spec.ts, tests/login-with-valid-username-and-invalid-password.spec.ts, tests/login-with-invalid-username-and-invalid-password.spec.ts, tests/login-with-empty-username-field.spec.ts, tests/login-with-empty-password-field.spec.ts, tests/login-with-both-username-and-password-fields-empty.spec.ts, tests/login-with-valid-username-having-leading-trailing-spaces.spec.ts\n- Report: C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\artifacts\\playwright-report\\index.html\n",
+    "title": "Automate: Precondition: Logged in as an Admin user in OrangeHRM applciation\nVerify the users list on the \"Admin/User Management\" p",
+    "description": "Generated playwright automation for story #23.\n\n- Story ID: 23\n- Title: Precondition: Logged in as an Admin user in OrangeHRM applciation\nVerify the users list on the \"Admin/User Management\" p\n- Files: locators/home/home.locator.ts, locators/home/home.aria.txt, tests/UserStory_23_navigate_admin_user_management_TC_01.spec.ts, tests/UserStory_23_verify_users_table_displays_TC_02.spec.ts, tests/UserStory_23_verify_users_table_displays_TC_03.spec.ts, tests/UserStory_23_verify_total_records_count_TC_04.spec.ts, tests/UserStory_23_verify_user_row_displays_TC_05.spec.ts, tests/UserStory_23_verify_actions_column_displays_TC_06.spec.ts, tests/UserStory_23_verify_admin_user_management_TC_07.spec.ts, tests/UserStory_23_verify_status_column_displays_TC_08.spec.ts\n- Report: C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\artifacts\\playwright-report\\index.html\n",
     "status": "ready_for_review"
   }
 }
