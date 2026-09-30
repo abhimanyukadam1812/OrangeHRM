@@ -1,20 +1,14 @@
 {
   "created": true,
-  "story_id": 22,
-  "title": "Precondition: Logged in as an Admin user in OrangeHRM applciation\nVerify the display of fields in \"Admin/User Management",
-  "branch_name": "automation/story-22-20260930121343",
+  "story_id": 21,
+  "title": "User logs in to OrangeHRM.",
+  "branch_name": "automation/story-21-20260930203811",
   "repo_path": "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM",
   "files": [
-    "locators/home/home.locator.ts",
-    "locators/home/home.aria.txt",
-    "tests/UserStory_22_navigate_admin_user_management_TC_01.spec.ts",
-    "tests/UserStory_22_verify_user_table_column_TC_02.spec.ts",
-    "tests/UserStory_22_verify_total_records_count_TC_03.spec.ts",
-    "tests/UserStory_22_verify_system_users_filter_TC_04.spec.ts",
-    "tests/UserStory_22_verify_presence_reset_search_TC_05.spec.ts",
-    "tests/UserStory_22_verify_user_role_column_TC_06.spec.ts",
-    "tests/UserStory_22_verify_status_column_displays_TC_07.spec.ts",
-    "tests/UserStory_22_verify_actions_column_displays_TC_08.spec.ts"
+    "pages/admin/admin.page.ts",
+    "locators/admin/admin.locator.ts",
+    "locators/admin/admin.aria.txt",
+    "tests/UserStory_21_admin_access_TC_01.spec.ts"
   ],
   "validation": {
     "passed": false,
@@ -30,6 +24,7 @@
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\login-with-valid-username-and-invalid-password.spec.ts",
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\login-with-valid-username-and-valid-password.spec.ts",
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\login-with-valid-username-having-leading-trailing-spaces.spec.ts",
+      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_21_admin_access_TC_01.spec.ts",
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_22_navigate_admin_user_management_TC_01.spec.ts",
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_22_verify_actions_column_displays_TC_08.spec.ts",
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_22_verify_presence_reset_search_TC_05.spec.ts",
@@ -46,6 +41,7 @@
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\login-with-valid-username-and-invalid-password.spec.ts",
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\login-with-valid-username-and-valid-password.spec.ts",
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\login-with-valid-username-having-leading-trailing-spaces.spec.ts",
+      "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_21_admin_access_TC_01.spec.ts",
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_22_navigate_admin_user_management_TC_01.spec.ts",
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_22_verify_actions_column_displays_TC_08.spec.ts",
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_22_verify_presence_reset_search_TC_05.spec.ts",
@@ -55,16 +51,16 @@
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_22_verify_user_role_column_TC_06.spec.ts",
       "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\tests\\UserStory_22_verify_user_table_column_TC_02.spec.ts"
     ],
-    "stdout": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments.\n\n\nTo open last HTML report run:\n\u001b[36m\u001b[39m\n\u001b[36m  npx playwright show-report\u001b[39m\n\u001b[36m\u001b[39m\n",
+    "stdout": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments.\n\n",
     "stderr": ""
   },
   "report_html": "C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\artifacts\\playwright-report\\index.html",
   "report_url": "file:///C:/AIHackathon/OrangeHRMTest/OrangeHRMRepo/OrangeHRM/artifacts/playwright-report/index.html",
   "merge_request": {
-    "source_branch": "automation/story-22-20260930121343",
+    "source_branch": "automation/story-21-20260930203811",
     "target_branch": "main",
-    "title": "Automate: Precondition: Logged in as an Admin user in OrangeHRM applciation\nVerify the display of fields in \"Admin/User Management",
-    "description": "Generated playwright automation for story #22.\n\n- Story ID: 22\n- Title: Precondition: Logged in as an Admin user in OrangeHRM applciation\nVerify the display of fields in \"Admin/User Management\n- Files: locators/home/home.locator.ts, locators/home/home.aria.txt, tests/UserStory_22_navigate_admin_user_management_TC_01.spec.ts, tests/UserStory_22_verify_user_table_column_TC_02.spec.ts, tests/UserStory_22_verify_total_records_count_TC_03.spec.ts, tests/UserStory_22_verify_system_users_filter_TC_04.spec.ts, tests/UserStory_22_verify_presence_reset_search_TC_05.spec.ts, tests/UserStory_22_verify_user_role_column_TC_06.spec.ts, tests/UserStory_22_verify_status_column_displays_TC_07.spec.ts, tests/UserStory_22_verify_actions_column_displays_TC_08.spec.ts\n- Report: C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\artifacts\\playwright-report\\index.html\n",
+    "title": "Automate: User logs in to OrangeHRM.",
+    "description": "Generated playwright automation for story #21.\n\n- Story ID: 21\n- Title: User logs in to OrangeHRM.\n- Files: pages/admin/admin.page.ts, locators/admin/admin.locator.ts, locators/admin/admin.aria.txt, tests/UserStory_21_admin_access_TC_01.spec.ts\n- Report: C:\\AIHackathon\\OrangeHRMTest\\OrangeHRMRepo\\OrangeHRM\\artifacts\\playwright-report\\index.html\n",
     "status": "ready_for_review"
   }
 }
