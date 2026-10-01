@@ -1,0 +1,3 @@
+- page: hr cannot publish roster containing unresolved validation errors
+- heading: Login
+- button: Submit

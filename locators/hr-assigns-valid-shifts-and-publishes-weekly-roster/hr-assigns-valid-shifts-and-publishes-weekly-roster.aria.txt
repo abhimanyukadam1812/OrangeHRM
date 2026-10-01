@@ -1,0 +1,3 @@
+- page: hr assigns valid shifts and publishes weekly roster
+- heading: Login
+- button: Submit
